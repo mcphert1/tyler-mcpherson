@@ -1,0 +1,50 @@
+/* Reset default margin and padding */
+body, h1, h2, p, figure {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header, footer {
+    background-color: #444;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Image styles */
+img {
+    width: 20%;
+    height: auto;
+}
+
+/* Product description styles */
+.product-description {
+    margin-top: 20px;
+}
+
+/* Reviews section styles */
+.reviews {
+    margin-top: 20px;
+}
+
+.review {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.review h2 {
+    color: #007bff;
+}
