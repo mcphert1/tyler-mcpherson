@@ -1,0 +1,80 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+main {
+    padding: 2em;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#task-form {
+    margin-bottom: 2em;
+}
+
+#task-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+#task-input {
+    padding: 0.5em;
+    margin-bottom: 1em;
+    font-size: 1em;
+}
+
+button {
+    padding: 0.5em;
+    font-size: 1em;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+#tasks {
+    list-style: none;
+    padding: 0;
+}
+
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+.task-item button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 0.2em 0.5em;
+    cursor: pointer;
+}
+
+.task-item button:hover {
+    background-color: #c0392b;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
